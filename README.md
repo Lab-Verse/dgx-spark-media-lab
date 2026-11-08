@@ -1,5 +1,7 @@
 # DGX Spark Media Lab
 
+[![Offline package checks](https://github.com/Lab-Verse/dgx-spark-media-lab/actions/workflows/checks.yml/badge.svg)](https://github.com/Lab-Verse/dgx-spark-media-lab/actions/workflows/checks.yml)
+
 **A practical Labverse field guide to local video, voiceover and audio workflows with Hermes and ComfyUI.**
 
 Build a small, inspectable media workstation on a Linux NVIDIA DGX Spark with 128 GB unified memory. Start with one image, one moving clip and one short narration; then edit them into an original film. This repository shares what we learned while doing that work at [Labverse](https://labverse.org).
