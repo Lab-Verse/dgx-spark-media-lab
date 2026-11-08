@@ -1,0 +1,15 @@
+DGX Spark Media Lab
+Copyright 2026 Labverse contributors.
+
+The workflows in workflows/api and workflows/ui adapt NVIDIA's DGX Spark
+ComfyUI playbook API graphs, with local node/export/tiled-decode changes,
+smaller starter settings and original example prompts.
+Source: https://github.com/NVIDIA/dgx-spark-playbooks
+Research commit: 30883150541743d580c9c347700c6ac99fc396d2
+Upstream copyright: NVIDIA Corporation. License: Apache-2.0.
+The full Apache-2.0 license is included in LICENSE.
+
+ComfyUI, Hermes, MioCodec, FFmpeg, PyTorch and all model publishers retain
+their respective ownership and licenses. Their source and weights are not
+vendored here. References and adaptation notes do not imply endorsement.
+Model terms are documented in docs/MODELS-AND-LICENSES.md and config/models.json.

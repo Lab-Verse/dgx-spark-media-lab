@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "snapshot": "2026-11-08",
+  "weights_redistributed": false,
+  "files": [
+    {
+      "groups": [
+        "image"
+      ],
+      "repo": "Comfy-Org/Z-Image-Turbo",
+      "revision": "6fc90a3b1b653e935a0d175e260736de25b84df5",
+      "file": "split_files/vae/ae.safetensors",
+      "destination": "comfy/models/vae/ae_z_image.safetensors",
+      "size_bytes": 335304388,
+      "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "image"
+      ],
+      "repo": "Comfy-Org/Z-Image-Turbo",
+      "revision": "6fc90a3b1b653e935a0d175e260736de25b84df5",
+      "file": "split_files/text_encoders/qwen_3_4b.safetensors",
+      "destination": "comfy/models/text_encoders/qwen_3_4b.safetensors",
+      "size_bytes": 8044982048,
+      "sha256": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "image"
+      ],
+      "repo": "Comfy-Org/Z-Image-Turbo",
+      "revision": "6fc90a3b1b653e935a0d175e260736de25b84df5",
+      "file": "split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+      "destination": "comfy/models/diffusion_models/z_image_turbo_bf16.safetensors",
+      "size_bytes": 12309866400,
+      "sha256": "2407613050b809ffdff18a4ac99af83ea6b95443ecebdf80e064a79c825574a6",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "video",
+        "i2v"
+      ],
+      "repo": "Comfy-Org/Wan-2.1",
+      "revision": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+      "file": "split_files/vae/wan_2.1_vae.safetensors",
+      "destination": "comfy/models/vae/wan_2.1_vae.safetensors",
+      "size_bytes": 253815318,
+      "sha256": "2fc39d31359a4b0a64f55876d8ff7fa8d780956ae2cb13463b0223e15148976b",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "video",
+        "i2v"
+      ],
+      "repo": "Comfy-Org/Wan-2.1",
+      "revision": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+      "file": "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "destination": "comfy/models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+      "size_bytes": 6735906897,
+      "sha256": "c3355d30191f1f066b26d93fba017ae9809dce6c627dda5f6a66eaa651204f68",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "video"
+      ],
+      "repo": "Comfy-Org/Wan-2.1",
+      "revision": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+      "file": "split_files/diffusion_models/wan2.1_t2v_14B_bf16.safetensors",
+      "destination": "comfy/models/diffusion_models/wan2.1_t2v_14B_bf16.safetensors",
+      "size_bytes": 28577096680,
+      "sha256": "193535c6450045f718df5f011de6d94d49bd9b13f37ca0412500f050dbbb01a8",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "i2v"
+      ],
+      "repo": "Comfy-Org/Wan-2.1",
+      "revision": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+      "file": "split_files/clip_vision/clip_vision_h.safetensors",
+      "destination": "comfy/models/clip_vision/clip_vision_h.safetensors",
+      "size_bytes": 1264219396,
+      "sha256": "64a7ef761bfccbadbaa3da77366aac4185a6c58fa5de5f589b42a65bcc21f161",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "i2v"
+      ],
+      "repo": "Comfy-Org/Wan-2.1",
+      "revision": "123acf1cc74bccbb9bfff8ac1ee72edc08c2341d",
+      "file": "split_files/diffusion_models/wan2.1_i2v_720p_14B_bf16.safetensors",
+      "destination": "comfy/models/diffusion_models/wan2.1_i2v_720p_14B_bf16.safetensors",
+      "size_bytes": 32789894024,
+      "sha256": "8ef7ea5bf9eea636b9b3ebd84c40671b4a18ae2704cb4c8595cb5b25c1d8e8b9",
+      "license": "apache-2.0",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/wavlm/wavlm_base_plus.pth",
+      "size_bytes": 377604347,
+      "license": "MIT (selected TorchAudio redistribution)",
+      "url": "https://download.pytorch.org/torchaudio/models/wavlm_base_plus.pth?versionId=V712l76ZtySwp3z5Z5fJGU4LAioHxK9Q",
+      "sha256": "136a3e720c04f2c77bf7a4dc6a3868b14d5a2c145a988114b733cb1a8428be98",
+      "verification": "official_source_size_plus_labverse_local_sha256_baseline",
+      "verification_limit": "No independent full publisher digest; this is a dated local baseline."
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/MioCodec/README.md",
+      "size_bytes": 4750,
+      "license": "mit",
+      "repo": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+      "revision": "67faba34153fe74e6665991c432a7327e23c5c1c",
+      "file": "README.md",
+      "git_blob_sha1": "987b5e5600f1fe58a49932be1099fd0af31a95b4",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/MioCodec/config.yaml",
+      "size_bytes": 2705,
+      "license": "mit",
+      "repo": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+      "revision": "67faba34153fe74e6665991c432a7327e23c5c1c",
+      "file": "config.yaml",
+      "git_blob_sha1": "f500b0cba9e45ba8b71ddfb5fb87fa3b56908444",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/MioCodec/model.safetensors",
+      "size_bytes": 528105436,
+      "license": "mit",
+      "repo": "Aratako/MioCodec-25Hz-44.1kHz-v2",
+      "revision": "67faba34153fe74e6665991c432a7327e23c5c1c",
+      "file": "model.safetensors",
+      "sha256": "8e319ef2231bad184f17cb73fd5a21b685c25c6c1622ef33ed9271187e81cd4a",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/README.md",
+      "size_bytes": 5148,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "README.md",
+      "git_blob_sha1": "63f18ba501e6861f2b036914c48decb02c053fa0",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/added_tokens.json",
+      "size_bytes": 309597,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "added_tokens.json",
+      "git_blob_sha1": "215627091d5518fb8e88ee9b8de7fba274cd3464",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/chat_template.jinja",
+      "size_bytes": 205,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "chat_template.jinja",
+      "git_blob_sha1": "56899113d8afb85d00b93085f1e5db588032398e",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/config.json",
+      "size_bytes": 1394,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "config.json",
+      "git_blob_sha1": "0825d9c0ae019712550bdab692abbe035c198fda",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/generation_config.json",
+      "size_bytes": 183,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "generation_config.json",
+      "git_blob_sha1": "533c27325e400844a21577d348ae9f76580aff86",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/merges.txt",
+      "size_bytes": 1671853,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "merges.txt",
+      "git_blob_sha1": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/model.safetensors",
+      "size_bytes": 1217825224,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "model.safetensors",
+      "sha256": "065f42f7ab6148b66f43e9be0d01ac336343dfe16161350c37b71a87c3e1981b",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/special_tokens_map.json",
+      "size_bytes": 613,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "special_tokens_map.json",
+      "git_blob_sha1": "ac23c0aaa2434523c494330aeb79c58395378103",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/tokenizer.json",
+      "size_bytes": 13817944,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "tokenizer.json",
+      "sha256": "abcde038b87ccd029a4523b0c5cec1da6d84b4f3d68b351495df086d63033f1f",
+      "verification": "publisher_sha256"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/tokenizer_config.json",
+      "size_bytes": 2272720,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "tokenizer_config.json",
+      "git_blob_sha1": "a71f2cceb5592818cb2ed4a2bcb82fc8df028373",
+      "verification": "publisher_git_blob_sha1"
+    },
+    {
+      "groups": [
+        "voice"
+      ],
+      "destination": "voice/models/Indic-Mio/vocab.json",
+      "size_bytes": 2776833,
+      "license": "apache-2.0",
+      "repo": "SPRINGLab/Indic-Mio",
+      "revision": "25feace00ca76c71c40b1e8d921fd3c2943c545e",
+      "file": "vocab.json",
+      "git_blob_sha1": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "verification": "publisher_git_blob_sha1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "snapshot": "2026-11-08",
+  "platform": "Linux aarch64 / NVIDIA GB10 / 128 GB unified memory",
+  "python": "3.12",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "torchaudio": "2.11.0",
+  "torchvision": "0.26.0",
+  "transformers": "5.22.1",
+  "comfyui": {
+    "version": "v0.33.2",
+    "commit": "7cee3ceb1a35503172e0dfb8dbdbdedee2aba8aa"
+  },
+  "hermes": {
+    "version": "v0.23.0",
+    "commit": "2bd378ed1b8d6bf2192cb26e0a55ff3091e6bd19"
+  },
+  "miocodec_source": "f41765d4d6f48649461fbb0c67add80169ce0f00",
+  "nvidia_playbook": "30883150541743d580c9c347700c6ac99fc396d2",
+  "fresh_public_install_tested": false
+}

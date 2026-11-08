@@ -1,0 +1,22 @@
+# Merge example for the recorded Hermes version; not a complete config.
+# Replace the model ID with one actually returned by your local server.
+model:
+  default: YOUR_SERVED_MODEL_ID
+  provider: custom:spark
+  base_url: http://127.0.0.1:18765/v1
+  streaming: true
+providers:
+  spark:
+    base_url: http://127.0.0.1:18765/v1
+    api: http://127.0.0.1:18765/v1
+    transport: chat_completions
+    request_timeout_seconds: 120
+    stale_timeout_seconds: 120
+agent:
+  max_turns: 25
+  api_max_retries: 2
+  auto_recovery_cycles: 0
+auth:
+  adopt_external_logins: false
+max_concurrent_sessions: 2
+# Do not add hosted fallback routes unless explicitly intended.

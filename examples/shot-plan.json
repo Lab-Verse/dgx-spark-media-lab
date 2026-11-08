@@ -1,0 +1,23 @@
+{
+  "example_only": true,
+  "title": "A helpful little robot",
+  "shots": [
+    {
+      "id": "shot-001",
+      "intent": "Original robot raises one arm; camera stays still",
+      "native_width": 512,
+      "native_height": 320,
+      "native_fps": 16,
+      "planned_frames": 49,
+      "graph_sha256": null,
+      "model_revision": null,
+      "prompt_id": null,
+      "source_sha256": null,
+      "selected_frame_start": null,
+      "selected_frame_end_exclusive": null,
+      "generation_seconds": null,
+      "human_motion_review": "pending"
+    }
+  ],
+  "note": "Fill actual values after generation; plan values are not receipts."
+}
